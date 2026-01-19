@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "181404087594",
+    "firebase_url": "https://sobit-d2864-default-rtdb.firebaseio.com",
+    "project_id": "sobit-d2864",
+    "storage_bucket": "sobit-d2864.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181404087594:android:4b3c9fb1a52dd35d9eda53",
+        "android_client_info": {
+          "package_name": "com.example.sobit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1fy_or3gvTbKAcqH5sYoNmD0AiNzvNoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

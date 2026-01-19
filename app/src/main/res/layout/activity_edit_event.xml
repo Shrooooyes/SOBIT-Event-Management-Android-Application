@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Event Name -->
+        <EditText
+            android:id="@+id/edtEventName"
+            android:hint="Event Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Client Name -->
+        <EditText
+            android:id="@+id/edtClientName"
+            android:hint="Client Name"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Phone -->
+        <EditText
+            android:id="@+id/edtPhone"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Venue -->
+        <EditText
+            android:id="@+id/edtVenue"
+            android:hint="Venue Location"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Event Type -->
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:entries="@array/event_types"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/edtDate"
+            android:hint="Event Date"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Time -->
+        <EditText
+            android:id="@+id/edtTime"
+            android:hint="Event Time"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Total Amount -->
+        <EditText
+            android:id="@+id/edtTotal"
+            android:hint="Total Amount (₹)"
+            android:inputType="number"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Advance Paid -->
+        <EditText
+            android:id="@+id/edtAdvance"
+            android:hint="Advance Paid (₹)"
+            android:inputType="number"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Remaining Amount -->
+        <TextView
+            android:id="@+id/txtRemaining"
+            android:text="Remaining: ₹0"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveEvent"
+            android:text="Save Event"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
